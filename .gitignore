@@ -1,0 +1,50 @@
+# =============================================================================
+# .gitignore — Binance Futures Trading Bot
+# =============================================================================
+
+# Environment / secrets — NEVER commit these
+.env
+
+# Log files (keep the directory, ignore log content)
+logs/*.log
+logs/*.log.*
+
+# Python bytecode
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Distribution / packaging
+.Python
+build/
+dist/
+*.egg-info/
+.eggs/
+*.egg
+MANIFEST
+
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+.env.bak
+
+# IDEs and editors
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+Thumbs.db
+
+# Testing
+.pytest_cache/
+.coverage
+htmlcov/
+.tox/
+
+# Type checkers / linters
+.mypy_cache/
+.ruff_cache/

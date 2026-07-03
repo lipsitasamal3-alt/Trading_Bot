@@ -1,0 +1,21 @@
+# =============================================================================
+# Binance Futures Trading Bot — requirements.txt
+# =============================================================================
+#
+# Install all dependencies with:
+#   pip install -r requirements.txt
+#
+# Python >= 3.11 required.
+# =============================================================================
+
+# Binance API client (REST + WebSocket, Futures Testnet support)
+python-binance==1.0.19
+
+# Environment variable management
+python-dotenv==1.0.1
+
+# Rich terminal output (tables, spinners, panels, colours)
+rich==13.9.4
+
+# HTTP library used internally by python-binance (pin for stability)
+requests==2.32.3
